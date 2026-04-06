@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed | Webmaster Portfolio</title>
+
+  <style>
+    /* ===== RESET ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      background: #0f0f0f;
+      color: #f5f5f5;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* ===== LAYOUT ===== */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 4rem;
+    }
+
+    /* ===== HERO ===== */
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #bdbdbd;
+      margin-bottom: 1.5rem;
+    }
+
+    .cta {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      border: 1px solid #ffffff;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .cta:hover {
+      background: #ffffff;
+      color: #000000;
+    }
+
+    /* ===== ABOUT ===== */
+    .about p {
+      margin-bottom: 1rem;
+      color: #d1d1d1;
+    }
+
+    /* ===== SKILLS ===== */
+    .skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .skills li {
+      border: 1px solid #444;
+      padding: 0.5rem 0.75rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    /* ===== LINKS ===== */
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .link-card {
+      border: 1px solid #333;
+      padding: 1rem;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .link-card:hover {
+      border-color: #fff;
+      transform: translateY(-2px);
+    }
+
+    .link-card h3 {
+      margin-bottom: 0.3rem;
+    }
+
+    .link-card p {
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      text-align: center;
+      color: #777;
+      font-size: 0.8rem;
+      margin-top: 2rem;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .container {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- HERO -->
+    <header class="hero">
+      <h1>Hi, I'm Mohamed — CS Student & Webmaster</h1>
+      <p>
+        I build fast, modern websites using HTML/CSS/JS and WordPress, with a strong focus on clean structure and real-world usability.
+      </p>
+      <a href="#links" class="cta">View My Work</a>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="about">
+      <h2>About</h2>
+      <p>
+        I'm a Computer Science student with hands-on experience managing and maintaining a real-world WordPress website for ENS Khemis Miliana.
+      </p>
+      <p>
+        My approach combines solid technical fundamentals with practical problem-solving — from building responsive interfaces to handling production-level content management.
+      </p>
+      <p>
+        I'm currently expanding into Framer to deliver modern, template-based websites efficiently.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills">
+      <h2>Core Skills</h2>
+      <ul>
+        <li>HTML5 / CSS3 / JavaScript</li>
+        <li>WordPress</li>
+        <li>Responsive Design</li>
+        <li>UI Structure</li>
+        <li>Framer (Learning)</li>
+      </ul>
+    </section>
+
+    <!-- LINKS -->
+    <section id="links" class="links">
+      <h2>Projects</h2>
+
+      <a href="https://maktabi.framer.website/" class="link-card">
+        <h3>Framer Landing Page Showcase</h3>
+        <p>Designed and customized a conversion-focused landing page using Framer, adapting a template to showcase a local furniture business with clear structure and user-friendly contact flow.</p>
+      </a>
+
+      <a href="http://ens.univ-dbkm.dz/" class="link-card">
+        <h3>WordPress Showcase</h3>
+        <p>Managed and maintained the ENS Khemis Miliana website using WordPress (Astra + Elementor), organizing multi-page content and a dynamic news system for consistent updates.
+          Implemented and handled a multilingual structure (3 languages), ensuring clear navigation and reliable content management in a live production environment.</p>
+      </a>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2026 Mohamed — Built with HTML & CSS</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
